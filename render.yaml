@@ -3,7 +3,7 @@ services:
     name: line-bot-image-catcher
     env: python
     buildCommand: ""
-    startCommand: "python main.py"
+    startCommand: "python src/main.py"
     envVars:
       - key: LINE_CHANNEL_SECRET
         value: 76265bcdc0f429b3ffeef17de8546135
