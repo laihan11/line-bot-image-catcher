@@ -2,6 +2,7 @@ services:
   - type: web
     name: line-bot-image-catcher
     env: python
+    rootDir: ./
     buildCommand: ""
     startCommand: "python main.py"
     envVars:
