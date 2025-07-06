@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: line-bot-image-catcher
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: CHANNEL_SECRET
+        value: 76265bcdc0f429b3ffeef17de8546135
+      - key: CHANNEL_ACCESS_TOKEN
+        value: h+bdlGE10kl/R5xEutyarEEGoiFaYZRC0yyObdIN2EFmUDFEAvfwNIiAxnz1ydim+ifx//rNdXTWCDoSI5mOWjUHZhoqfVTJBg2BOvhfN7oy5if2h0tGm3MK4JgCSHrLauenyupiAmkDdJGEoKuT4AdB04t89/1O/w1cDnyilFU=
